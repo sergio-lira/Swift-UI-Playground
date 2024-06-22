@@ -4,7 +4,8 @@
 //
 //  Created by Sergio Lira on 6/20/24.
 //
-// Content: #lazygrid #responsive #section #header #loops #extension #UiKit
+//  Content: #lazygrid #responsive #section #header #loops #extension #UiKit
+//  URL: https://youtu.be/vfUalXtwth0?si=h-B9yMH95Eqhudr by Sean Allen
 
 import SwiftUI
 
@@ -21,7 +22,7 @@ struct LazyGridView: View {
         ScrollView {
             LazyVGrid(columns: _columns, spacing: 10, pinnedViews: .sectionHeaders) {
                 Section {
-                    ForEach(MockData.colors, id: \.self) {
+                    ForEach(GridMockData.colors, id: \.self) {
                         RoundedRectangle(cornerRadius: 10)
                             .fill($0)
                             .frame(height: 100)
@@ -33,7 +34,7 @@ struct LazyGridView: View {
                 }
                 
                 Section {
-                    ForEach(MockData.colors, id: \.self) {
+                    ForEach(GridMockData.colors, id: \.self) {
                         RoundedRectangle(cornerRadius: 10)
                             .fill($0)
                             .frame(height: 100)
@@ -50,7 +51,7 @@ struct LazyGridView: View {
         ScrollView(.horizontal){
             LazyHGrid(rows: _rows) {
                 Section {
-                    ForEach(MockData.colors, id: \.self) {
+                    ForEach(GridMockData.colors, id: \.self) {
                         RoundedRectangle(cornerRadius: 10)
                             .fill($0)
                             .frame(width: 100)
@@ -72,7 +73,7 @@ extension Color {
     }
 }
 
-struct MockData {
+struct GridMockData {
     static var colors: [Color] {
         var array: [Color] = []
         for _ in 0..<30 { array.append(Color.random)}

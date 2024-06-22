@@ -3,7 +3,8 @@
 //
 //  Created by Sergio Lira on 5/19/24.
 //
-// C ontent: #alerts #error
+//  Content: #alerts #error
+//  URL: https://youtu.be/2c1IQ0BT0PE?si=15yMJgVEL2yZsIJ5 by Sean Allen
 
 import SwiftUI
 import SwiftData

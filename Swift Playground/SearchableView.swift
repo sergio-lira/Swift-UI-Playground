@@ -5,10 +5,11 @@
 //  Created by Sergio Lira on 6/19/24.
 //
 // Content: #search #nativation #emptyView #file
+// URL: https://youtu.be/iTqwa0DCIMA?si=fmvFa2FIXMbxdB2T by Sean Allen
 
 import SwiftUI
 
-struct Searchable: View {
+struct SearchableView: View {
     
     @State private var symbols: [String] = []
     @State private var searchTerm  = ""
@@ -19,17 +20,17 @@ struct Searchable: View {
     }
     
     var body: some View {
-        NavigationStack{
-            if symbols.isEmpty {
-                ContentUnavailableView(label: {
-                    Label("No Symbols", systemImage: "exclamationmark.magnifyingglass")
-                }, description: {
-                }, actions: {
-                    Button(action: {symbols = getAllSymbolNames()}) {
-                        Text("Load Symbols")
-                    }
-                })
-            } else {
+        if symbols.isEmpty {
+            ContentUnavailableView(label: {
+                Label("", systemImage: "square.and.arrow.down")
+            }, description: {
+            }, actions: {
+                Button(action: {symbols = getAllSymbolNames()}) {
+                    Text("Load Symbols")
+                }
+            })
+        } else {
+            NavigationStack {
                 VStack{
                     List(filteredSymbols, id: \.self){ symbol in
                         HStack(spacing: 20){
@@ -42,7 +43,7 @@ struct Searchable: View {
                                 .fontWeight(.medium)
                         }
                     }.searchable(text: $searchTerm, prompt: "Search Symbols")
-                }.navigationTitle("Symbols")
+                }.navigationTitle("SF Symbols")
             }
         }
     }
@@ -55,9 +56,9 @@ struct Searchable: View {
                 let myStrings = data.components(separatedBy: .newlines)
                 for line in myStrings {
                     symbols.append(line)
-//                    if symbols.count > 20{
-//                        break
-//                    }
+                    //                    if symbols.count > 200{
+                    //                        break
+                    //                    }
                 }
             } catch {
                 print(error)
@@ -68,6 +69,6 @@ struct Searchable: View {
 }
 
 #Preview {
-    Searchable()
+    SearchableView()
 }
 

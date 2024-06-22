@@ -4,6 +4,7 @@ import UIKit
 
 
 // MARK: - Generics #generics
+// URL: https://youtu.be/a3AH0ItFTKU?si=_jrP_oMDIfr7eU8W by Saen Allen
 determineHigherValue(valueOne: 3, valueTwo: 8)
 determineHigherValue(valueOne: "Sergio", valueTwo: "Swift")
 determineHigherValue(valueOne: Date.now, valueTwo: Date.distantPast)
@@ -14,6 +15,7 @@ numbersArray.append(4)
 stringArray.append("Swift")
 
 // MARK: - Where #where #controlFlow
+// URL: https://youtu.be/gZa_wZ1GJ8I?si=zAquXvBIpw0xiMX7 by Sean Allen
 import Foundation
 let values = [458, 1239, 10334, 1938, 123, 54359, 2834091]
 
