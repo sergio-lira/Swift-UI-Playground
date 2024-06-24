@@ -4,7 +4,7 @@
 //
 //  Created by Sergio Lira on 6/20/24.
 //
-// Content: #Zstack #GroupBox #Style #extensio #inferface #shapes #progressview
+// Content: #Zstack #GroupBox #Style #extension #inherit #shapes #progressview
 // URL: https://youtu.be/NvE3SaGGurQ?si=lPzsKhnkL_Qy00zw by Sean Allen
 
 import SwiftUI

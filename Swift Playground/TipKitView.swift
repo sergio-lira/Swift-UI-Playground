@@ -4,8 +4,8 @@
 //
 //  Created by Sergio Lira on 6/23/24.
 //
-//  Content: #ui #
-//  URL:
+//  Content: #ui #tipkit #nativation #groupbox #async #inherit #datastore #appConfigure
+//  URL: https://youtu.be/qlMxrwJfHaE?si=JCtIKLyb_N31LD2- by Sean Allen
 
 
 // Tips should be used for:
