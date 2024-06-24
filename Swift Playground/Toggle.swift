@@ -10,7 +10,7 @@
 import Foundation
 import SwiftUI
 
-struct ContentView: View {
+struct ToggleView: View {
     @State private var isWifiOn = false
     var body: some View {
         VStack{
@@ -35,5 +35,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ToggleView()
 }

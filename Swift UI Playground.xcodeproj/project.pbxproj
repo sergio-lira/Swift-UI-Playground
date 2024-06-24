@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		490FA0742C28E616007D587A /* TipKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490FA0732C28E616007D587A /* TipKitView.swift */; };
+		490FA0762C28F6E3007D587A /* ProjectIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490FA0752C28F6E3007D587A /* ProjectIndex.swift */; };
 		4922BA792C26AE8F008CEDE5 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922BA782C26AE8F008CEDE5 /* PieChartView.swift */; };
 		494A9EFC2C23D39200F5DEB9 /* SearchableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494A9EFB2C23D39200F5DEB9 /* SearchableView.swift */; };
 		494A9EFF2C23D82D00F5DEB9 /* SFSymbolNames.txt in Resources */ = {isa = PBXBuildFile; fileRef = 494A9EFE2C23D82D00F5DEB9 /* SFSymbolNames.txt */; };
-		496F20792C1FD21E00F18868 /* Empty State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496F20782C1FD21E00F18868 /* Empty State.swift */; };
+		496F20792C1FD21E00F18868 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496F20782C1FD21E00F18868 /* EmptyState.swift */; };
 		4975C7592BFADCAF007838FC /* Swift_PlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975C7582BFADCAF007838FC /* Swift_PlaygroundApp.swift */; };
 		4975C75B2BFADCAF007838FC /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975C75A2BFADCAF007838FC /* Alerts.swift */; };
 		4975C75D2BFADCAF007838FC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975C75C2BFADCAF007838FC /* Item.swift */; };
@@ -21,6 +23,7 @@
 		4975C7782BFADCB1007838FC /* Swift_PlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975C7772BFADCB1007838FC /* Swift_PlaygroundUITestsLaunchTests.swift */; };
 		4975C7852BFAE32F007838FC /* MyAppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975C7842BFAE32F007838FC /* MyAppError.swift */; };
 		4980C9642C042C450054485C /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4980C9632C042C450054485C /* Generics.swift */; };
+		49C5325D2C2791E6005BB970 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C5325C2C2791E6005BB970 /* BarChartView.swift */; };
 		49CAE7662C2541BB007E59B8 /* LazyGrids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CAE7652C2541BB007E59B8 /* LazyGrids.swift */; };
 		49CAE7682C254C09007E59B8 /* StaticGrids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CAE7672C254C09007E59B8 /* StaticGrids.swift */; };
 		49DE522E2C250AA40025E770 /* GroupBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DE522D2C250AA40025E770 /* GroupBox.swift */; };
@@ -45,10 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		490FA0732C28E616007D587A /* TipKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipKitView.swift; sourceTree = "<group>"; };
+		490FA0752C28F6E3007D587A /* ProjectIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectIndex.swift; sourceTree = "<group>"; };
 		4922BA782C26AE8F008CEDE5 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
 		494A9EFB2C23D39200F5DEB9 /* SearchableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableView.swift; sourceTree = "<group>"; };
 		494A9EFE2C23D82D00F5DEB9 /* SFSymbolNames.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SFSymbolNames.txt; sourceTree = "<group>"; };
-		496F20782C1FD21E00F18868 /* Empty State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Empty State.swift"; sourceTree = "<group>"; };
+		496F20782C1FD21E00F18868 /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		497445652C0431EE00AABCD9 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4975C7552BFADCAF007838FC /* Swift UI Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift UI Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4975C7582BFADCAF007838FC /* Swift_PlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_PlaygroundApp.swift; sourceTree = "<group>"; };
@@ -63,6 +68,7 @@
 		4975C7772BFADCB1007838FC /* Swift_PlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_PlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4975C7842BFAE32F007838FC /* MyAppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppError.swift; sourceTree = "<group>"; };
 		4980C9632C042C450054485C /* Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
+		49C5325C2C2791E6005BB970 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
 		49CAE7652C2541BB007E59B8 /* LazyGrids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGrids.swift; sourceTree = "<group>"; };
 		49CAE7672C254C09007E59B8 /* StaticGrids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticGrids.swift; sourceTree = "<group>"; };
 		49DE522D2C250AA40025E770 /* GroupBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBox.swift; sourceTree = "<group>"; };
@@ -94,6 +100,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		490FA0772C28FB48007D587A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4975C75A2BFADCAF007838FC /* Alerts.swift */,
+				49FA58302C117E160019055E /* Toggle.swift */,
+				496F20782C1FD21E00F18868 /* EmptyState.swift */,
+				494A9EFB2C23D39200F5DEB9 /* SearchableView.swift */,
+				49DE522D2C250AA40025E770 /* GroupBox.swift */,
+				49CAE7652C2541BB007E59B8 /* LazyGrids.swift */,
+				49CAE7672C254C09007E59B8 /* StaticGrids.swift */,
+				4922BA782C26AE8F008CEDE5 /* PieChartView.swift */,
+				49C5325C2C2791E6005BB970 /* BarChartView.swift */,
+				490FA0732C28E616007D587A /* TipKitView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		490FA0782C28FB62007D587A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4975C7842BFAE32F007838FC /* MyAppError.swift */,
+				4980C9632C042C450054485C /* Generics.swift */,
+				4975C75C2BFADCAF007838FC /* Item.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		494A9EFD2C23D7D700F5DEB9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,19 +167,11 @@
 		4975C7572BFADCAF007838FC /* Swift Playground */ = {
 			isa = PBXGroup;
 			children = (
+				490FA0782C28FB62007D587A /* Model */,
+				490FA0772C28FB48007D587A /* View */,
 				494A9EFD2C23D7D700F5DEB9 /* Resources */,
 				4975C7582BFADCAF007838FC /* Swift_PlaygroundApp.swift */,
-				4975C75A2BFADCAF007838FC /* Alerts.swift */,
-				4975C7842BFAE32F007838FC /* MyAppError.swift */,
-				4980C9632C042C450054485C /* Generics.swift */,
-				49FA58302C117E160019055E /* Toggle.swift */,
-				4975C75C2BFADCAF007838FC /* Item.swift */,
-				496F20782C1FD21E00F18868 /* Empty State.swift */,
-				494A9EFB2C23D39200F5DEB9 /* SearchableView.swift */,
-				49DE522D2C250AA40025E770 /* GroupBox.swift */,
-				49CAE7652C2541BB007E59B8 /* LazyGrids.swift */,
-				49CAE7672C254C09007E59B8 /* StaticGrids.swift */,
-				4922BA782C26AE8F008CEDE5 /* PieChartView.swift */,
+				490FA0752C28F6E3007D587A /* ProjectIndex.swift */,
 				4975C75E2BFADCB0007838FC /* Assets.xcassets */,
 				4975C7602BFADCB0007838FC /* Preview Content */,
 			);
@@ -311,10 +336,13 @@
 			files = (
 				4975C7852BFAE32F007838FC /* MyAppError.swift in Sources */,
 				4975C75B2BFADCAF007838FC /* Alerts.swift in Sources */,
+				490FA0762C28F6E3007D587A /* ProjectIndex.swift in Sources */,
+				49C5325D2C2791E6005BB970 /* BarChartView.swift in Sources */,
 				4980C9642C042C450054485C /* Generics.swift in Sources */,
 				49CAE7682C254C09007E59B8 /* StaticGrids.swift in Sources */,
-				496F20792C1FD21E00F18868 /* Empty State.swift in Sources */,
+				496F20792C1FD21E00F18868 /* EmptyState.swift in Sources */,
 				4922BA792C26AE8F008CEDE5 /* PieChartView.swift in Sources */,
+				490FA0742C28E616007D587A /* TipKitView.swift in Sources */,
 				49FA58312C117E160019055E /* Toggle.swift in Sources */,
 				49CAE7662C2541BB007E59B8 /* LazyGrids.swift in Sources */,
 				494A9EFC2C23D39200F5DEB9 /* SearchableView.swift in Sources */,

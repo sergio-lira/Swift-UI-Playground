@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftData
+import TipKit
 
 @main
 struct Swift_PlaygroundApp: App {
@@ -25,7 +26,16 @@ struct Swift_PlaygroundApp: App {
 
     var body: some Scene {
         WindowGroup {
-            Alerts()
+            ProjectIndexView()
+                .task {
+                    // for debugging
+                    try? Tips.resetDatastore()
+                    try? Tips.configure([
+                        //using immedaite to force that the tips are shown constantly
+                        .displayFrequency(.immediate),
+                        .datastoreLocation(.applicationDefault)
+                    ])
+                }
         }
         .modelContainer(sharedModelContainer)
     }

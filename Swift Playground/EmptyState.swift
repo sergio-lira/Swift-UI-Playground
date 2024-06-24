@@ -9,7 +9,7 @@
 
 import SwiftUI
 
-struct EmptyState: View {
+struct EmptyStateView: View {
     
     @State private var heroes = ["Roland", "Jacke", "Callahan", "Eddie", "King", "Oy"]
     @State private var manualInput = []
@@ -61,4 +61,4 @@ struct EmptyState: View {
     }
 }
 
-#Preview { EmptyState() }
+#Preview { EmptyStateView() }
