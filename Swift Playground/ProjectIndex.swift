@@ -21,6 +21,7 @@ struct ProjectIndexView: View {
         ("Pie Charts", AnyView(PieChartView())),
         ("Bar Charts", AnyView(BarChartView())),
         ("Tip Kit Demo", AnyView(TipKitView())),
+        ("Animated Scrolling", AnyView(SmoothScrollView())),
         // Add more views here
     ]
     

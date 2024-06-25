@@ -27,7 +27,7 @@ import TipKit
 // Tips need to be set-up at application start up, see Swift_PlaygroundApp
 struct TipKitView: View {
     
-    @State private var colorData = TipKitMockData()
+    @State private var colorData = TipKitMockData(size: 5)
     let addColorTip = AddColorTip()
     let favoriteTip = SetFavoriteColorTip()
     
@@ -76,8 +76,8 @@ struct TipKitView: View {
 
 struct TipKitMockData {
     var colors: [Color]
-    init() {
-        colors =  (0...5).map { _ in Color.random}
+    init(size: Int) {
+        colors =  (0...size).map { _ in Color.random}
     }
 }
 
