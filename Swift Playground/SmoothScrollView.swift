@@ -38,9 +38,11 @@ struct SmoothScrollView: View {
             .scrollTargetLayout()
         }
         //.contentMargins(.horizontal, for: .scrollContent)
+        // better than padding size padding can generate unused white space
         .contentMargins(16, for: .scrollContent)
         // for a 'paging' behaviour
-        .scrollTargetBehavior(.viewAligned)
+        //.scrollTargetBehavior(.viewAligned)
+        .scrollTargetBehavior(.paging)
     }
 }
 

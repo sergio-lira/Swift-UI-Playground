@@ -10,6 +10,7 @@
 		490FA0742C28E616007D587A /* TipKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490FA0732C28E616007D587A /* TipKitView.swift */; };
 		490FA0762C28F6E3007D587A /* ProjectIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490FA0752C28F6E3007D587A /* ProjectIndex.swift */; };
 		4922BA792C26AE8F008CEDE5 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922BA782C26AE8F008CEDE5 /* PieChartView.swift */; };
+		493029062C2BDFA8004499F6 /* SymbolEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493029052C2BDFA8004499F6 /* SymbolEffects.swift */; };
 		494A9EFC2C23D39200F5DEB9 /* SearchableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494A9EFB2C23D39200F5DEB9 /* SearchableView.swift */; };
 		494A9EFF2C23D82D00F5DEB9 /* SFSymbolNames.txt in Resources */ = {isa = PBXBuildFile; fileRef = 494A9EFE2C23D82D00F5DEB9 /* SFSymbolNames.txt */; };
 		495671782C2A5ACE005C1DBB /* SmoothScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495671772C2A5ACE005C1DBB /* SmoothScrollView.swift */; };
@@ -52,6 +53,7 @@
 		490FA0732C28E616007D587A /* TipKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipKitView.swift; sourceTree = "<group>"; };
 		490FA0752C28F6E3007D587A /* ProjectIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectIndex.swift; sourceTree = "<group>"; };
 		4922BA782C26AE8F008CEDE5 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		493029052C2BDFA8004499F6 /* SymbolEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolEffects.swift; sourceTree = "<group>"; };
 		494A9EFB2C23D39200F5DEB9 /* SearchableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableView.swift; sourceTree = "<group>"; };
 		494A9EFE2C23D82D00F5DEB9 /* SFSymbolNames.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SFSymbolNames.txt; sourceTree = "<group>"; };
 		495671772C2A5ACE005C1DBB /* SmoothScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothScrollView.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				49C5325C2C2791E6005BB970 /* BarChartView.swift */,
 				490FA0732C28E616007D587A /* TipKitView.swift */,
 				495671772C2A5ACE005C1DBB /* SmoothScrollView.swift */,
+				493029052C2BDFA8004499F6 /* SymbolEffects.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				4975C75D2BFADCAF007838FC /* Item.swift in Sources */,
 				4975C7592BFADCAF007838FC /* Swift_PlaygroundApp.swift in Sources */,
 				49DE522E2C250AA40025E770 /* GroupBox.swift in Sources */,
+				493029062C2BDFA8004499F6 /* SymbolEffects.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -23,6 +23,14 @@ struct GroupBoxDemo: View {
                 .frame(width: 240)
                 .groupBoxStyle(.music)
                 
+                GroupBox ("this is a title") {
+                    Text("This is a group box box content that has a large amount of text and it could be an issue")
+                        // This causes content to fit to a number of lines
+                        .lineLimit(3, reservesSpace: true)
+                }
+                .frame(width: 240)
+                .groupBoxStyle(.music)
+                
                 GroupBox {
                     GroupBox {
                         MusicPlayerView()
