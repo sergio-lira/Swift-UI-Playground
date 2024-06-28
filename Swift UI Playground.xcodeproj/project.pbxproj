@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		490B64322C2E6970006776D1 /* SectionedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490B64312C2E6970006776D1 /* SectionedListView.swift */; };
 		490FA0742C28E616007D587A /* TipKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490FA0732C28E616007D587A /* TipKitView.swift */; };
 		490FA0762C28F6E3007D587A /* ProjectIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490FA0752C28F6E3007D587A /* ProjectIndex.swift */; };
 		4922BA792C26AE8F008CEDE5 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922BA782C26AE8F008CEDE5 /* PieChartView.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		490B64312C2E6970006776D1 /* SectionedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionedListView.swift; sourceTree = "<group>"; };
 		490FA0732C28E616007D587A /* TipKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipKitView.swift; sourceTree = "<group>"; };
 		490FA0752C28F6E3007D587A /* ProjectIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectIndex.swift; sourceTree = "<group>"; };
 		4922BA782C26AE8F008CEDE5 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				490FA0732C28E616007D587A /* TipKitView.swift */,
 				495671772C2A5ACE005C1DBB /* SmoothScrollView.swift */,
 				493029052C2BDFA8004499F6 /* SymbolEffects.swift */,
+				490B64312C2E6970006776D1 /* SectionedListView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				4980C9642C042C450054485C /* Generics.swift in Sources */,
 				495671782C2A5ACE005C1DBB /* SmoothScrollView.swift in Sources */,
 				49CAE7682C254C09007E59B8 /* StaticGrids.swift in Sources */,
+				490B64322C2E6970006776D1 /* SectionedListView.swift in Sources */,
 				496F20792C1FD21E00F18868 /* EmptyState.swift in Sources */,
 				4922BA792C26AE8F008CEDE5 /* PieChartView.swift in Sources */,
 				490FA0742C28E616007D587A /* TipKitView.swift in Sources */,
