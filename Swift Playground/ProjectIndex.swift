@@ -23,7 +23,7 @@ struct ProjectIndexView: View {
         ("Tip Kit Demo", AnyView(TipKitView())),
         ("Animated Scrolling", AnyView(SmoothScrollView())),
         ("Symbol Effects", AnyView(SymbolEffectsView())),
-        ("Sectioned List", AnyView(SectionedListView())),
+        ("Expanding List", AnyView(ExpandingListView())),
         // Add more views here
     ]
     
