@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		490B64322C2E6970006776D1 /* SectionedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490B64312C2E6970006776D1 /* SectionedListView.swift */; };
 		490FA0742C28E616007D587A /* TipKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490FA0732C28E616007D587A /* TipKitView.swift */; };
 		490FA0762C28F6E3007D587A /* ProjectIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490FA0752C28F6E3007D587A /* ProjectIndex.swift */; };
 		4922BA792C26AE8F008CEDE5 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922BA782C26AE8F008CEDE5 /* PieChartView.swift */; };
@@ -26,6 +25,7 @@
 		4975C7782BFADCB1007838FC /* Swift_PlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975C7772BFADCB1007838FC /* Swift_PlaygroundUITestsLaunchTests.swift */; };
 		4975C7852BFAE32F007838FC /* MyAppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975C7842BFAE32F007838FC /* MyAppError.swift */; };
 		4980C9642C042C450054485C /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4980C9632C042C450054485C /* Generics.swift */; };
+		499AA2362C2E7604004D4556 /* ExpandingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499AA2352C2E7604004D4556 /* ExpandingListView.swift */; };
 		49C5325D2C2791E6005BB970 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C5325C2C2791E6005BB970 /* BarChartView.swift */; };
 		49CAE7662C2541BB007E59B8 /* LazyGrids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CAE7652C2541BB007E59B8 /* LazyGrids.swift */; };
 		49CAE7682C254C09007E59B8 /* StaticGrids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CAE7672C254C09007E59B8 /* StaticGrids.swift */; };
@@ -51,7 +51,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		490B64312C2E6970006776D1 /* SectionedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionedListView.swift; sourceTree = "<group>"; };
 		490FA0732C28E616007D587A /* TipKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipKitView.swift; sourceTree = "<group>"; };
 		490FA0752C28F6E3007D587A /* ProjectIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectIndex.swift; sourceTree = "<group>"; };
 		4922BA782C26AE8F008CEDE5 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
@@ -74,6 +73,7 @@
 		4975C7772BFADCB1007838FC /* Swift_PlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_PlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4975C7842BFAE32F007838FC /* MyAppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppError.swift; sourceTree = "<group>"; };
 		4980C9632C042C450054485C /* Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
+		499AA2352C2E7604004D4556 /* ExpandingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingListView.swift; sourceTree = "<group>"; };
 		49C5325C2C2791E6005BB970 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
 		49CAE7652C2541BB007E59B8 /* LazyGrids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGrids.swift; sourceTree = "<group>"; };
 		49CAE7672C254C09007E59B8 /* StaticGrids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticGrids.swift; sourceTree = "<group>"; };
@@ -121,7 +121,7 @@
 				490FA0732C28E616007D587A /* TipKitView.swift */,
 				495671772C2A5ACE005C1DBB /* SmoothScrollView.swift */,
 				493029052C2BDFA8004499F6 /* SymbolEffects.swift */,
-				490B64312C2E6970006776D1 /* SectionedListView.swift */,
+				499AA2352C2E7604004D4556 /* ExpandingListView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -350,9 +350,9 @@
 				4980C9642C042C450054485C /* Generics.swift in Sources */,
 				495671782C2A5ACE005C1DBB /* SmoothScrollView.swift in Sources */,
 				49CAE7682C254C09007E59B8 /* StaticGrids.swift in Sources */,
-				490B64322C2E6970006776D1 /* SectionedListView.swift in Sources */,
 				496F20792C1FD21E00F18868 /* EmptyState.swift in Sources */,
 				4922BA792C26AE8F008CEDE5 /* PieChartView.swift in Sources */,
+				499AA2362C2E7604004D4556 /* ExpandingListView.swift in Sources */,
 				490FA0742C28E616007D587A /* TipKitView.swift in Sources */,
 				49FA58312C117E160019055E /* Toggle.swift in Sources */,
 				49CAE7662C2541BB007E59B8 /* LazyGrids.swift in Sources */,
