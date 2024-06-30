@@ -24,6 +24,7 @@ struct ProjectIndexView: View {
         ("Animated Scrolling", AnyView(SmoothScrollView())),
         ("Symbol Effects", AnyView(SymbolEffectsView())),
         ("Expanding List", AnyView(ExpandingListView())),
+        ("Section List", AnyView(SectionListView())),
         // Add more views here
     ]
     

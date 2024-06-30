@@ -25,6 +25,7 @@
 		4975C7782BFADCB1007838FC /* Swift_PlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975C7772BFADCB1007838FC /* Swift_PlaygroundUITestsLaunchTests.swift */; };
 		4975C7852BFAE32F007838FC /* MyAppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975C7842BFAE32F007838FC /* MyAppError.swift */; };
 		4980C9642C042C450054485C /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4980C9632C042C450054485C /* Generics.swift */; };
+		4981738A2C311FAD00414108 /* SectionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498173892C311FAD00414108 /* SectionListView.swift */; };
 		499AA2362C2E7604004D4556 /* ExpandingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499AA2352C2E7604004D4556 /* ExpandingListView.swift */; };
 		49C5325D2C2791E6005BB970 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C5325C2C2791E6005BB970 /* BarChartView.swift */; };
 		49CAE7662C2541BB007E59B8 /* LazyGrids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CAE7652C2541BB007E59B8 /* LazyGrids.swift */; };
@@ -73,6 +74,7 @@
 		4975C7772BFADCB1007838FC /* Swift_PlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_PlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4975C7842BFAE32F007838FC /* MyAppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppError.swift; sourceTree = "<group>"; };
 		4980C9632C042C450054485C /* Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
+		498173892C311FAD00414108 /* SectionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionListView.swift; sourceTree = "<group>"; };
 		499AA2352C2E7604004D4556 /* ExpandingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingListView.swift; sourceTree = "<group>"; };
 		49C5325C2C2791E6005BB970 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
 		49CAE7652C2541BB007E59B8 /* LazyGrids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGrids.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				495671772C2A5ACE005C1DBB /* SmoothScrollView.swift */,
 				493029052C2BDFA8004499F6 /* SymbolEffects.swift */,
 				499AA2352C2E7604004D4556 /* ExpandingListView.swift */,
+				498173892C311FAD00414108 /* SectionListView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4981738A2C311FAD00414108 /* SectionListView.swift in Sources */,
 				4975C7852BFAE32F007838FC /* MyAppError.swift in Sources */,
 				4975C75B2BFADCAF007838FC /* Alerts.swift in Sources */,
 				490FA0762C28F6E3007D587A /* ProjectIndex.swift in Sources */,
