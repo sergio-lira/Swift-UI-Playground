@@ -26,6 +26,7 @@
 		4975C7852BFAE32F007838FC /* MyAppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975C7842BFAE32F007838FC /* MyAppError.swift */; };
 		4980C9642C042C450054485C /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4980C9632C042C450054485C /* Generics.swift */; };
 		4981738A2C311FAD00414108 /* SectionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498173892C311FAD00414108 /* SectionListView.swift */; };
+		4999E5142C33979500E01A65 /* ExpandingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4999E5132C33979500E01A65 /* ExpandingViews.swift */; };
 		499AA2362C2E7604004D4556 /* ExpandingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499AA2352C2E7604004D4556 /* ExpandingListView.swift */; };
 		49C5325D2C2791E6005BB970 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C5325C2C2791E6005BB970 /* BarChartView.swift */; };
 		49CAE7662C2541BB007E59B8 /* LazyGrids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CAE7652C2541BB007E59B8 /* LazyGrids.swift */; };
@@ -75,6 +76,7 @@
 		4975C7842BFAE32F007838FC /* MyAppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppError.swift; sourceTree = "<group>"; };
 		4980C9632C042C450054485C /* Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
 		498173892C311FAD00414108 /* SectionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionListView.swift; sourceTree = "<group>"; };
+		4999E5132C33979500E01A65 /* ExpandingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingViews.swift; sourceTree = "<group>"; };
 		499AA2352C2E7604004D4556 /* ExpandingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingListView.swift; sourceTree = "<group>"; };
 		49C5325C2C2791E6005BB970 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
 		49CAE7652C2541BB007E59B8 /* LazyGrids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGrids.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				493029052C2BDFA8004499F6 /* SymbolEffects.swift */,
 				499AA2352C2E7604004D4556 /* ExpandingListView.swift */,
 				498173892C311FAD00414108 /* SectionListView.swift */,
+				4999E5132C33979500E01A65 /* ExpandingViews.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 				4975C7592BFADCAF007838FC /* Swift_PlaygroundApp.swift in Sources */,
 				49DE522E2C250AA40025E770 /* GroupBox.swift in Sources */,
 				493029062C2BDFA8004499F6 /* SymbolEffects.swift in Sources */,
+				4999E5142C33979500E01A65 /* ExpandingViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

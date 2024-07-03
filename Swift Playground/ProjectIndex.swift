@@ -25,6 +25,7 @@ struct ProjectIndexView: View {
         ("Symbol Effects", AnyView(SymbolEffectsView())),
         ("Expanding List", AnyView(ExpandingListView())),
         ("Section List", AnyView(SectionListView())),
+        ("Expanding Views", AnyView(ExpandingViews())),
         // Add more views here
     ]
     

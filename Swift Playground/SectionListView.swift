@@ -4,6 +4,7 @@
 //
 //  Created by Sergio Lira on 6/29/24.
 //
+//  Content: #list #section #footer #header #toggle #animation
 
 import SwiftUI
 
