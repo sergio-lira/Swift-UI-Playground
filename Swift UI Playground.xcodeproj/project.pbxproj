@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		490FA0742C28E616007D587A /* TipKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490FA0732C28E616007D587A /* TipKitView.swift */; };
 		490FA0762C28F6E3007D587A /* ProjectIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490FA0752C28F6E3007D587A /* ProjectIndex.swift */; };
+		4914B9032C378A68009D1DDF /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914B9022C378A68009D1DDF /* MeetingView.swift */; };
 		4922BA792C26AE8F008CEDE5 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922BA782C26AE8F008CEDE5 /* PieChartView.swift */; };
 		493029062C2BDFA8004499F6 /* SymbolEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493029052C2BDFA8004499F6 /* SymbolEffects.swift */; };
 		494A9EFC2C23D39200F5DEB9 /* SearchableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494A9EFB2C23D39200F5DEB9 /* SearchableView.swift */; };
@@ -55,6 +56,7 @@
 /* Begin PBXFileReference section */
 		490FA0732C28E616007D587A /* TipKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipKitView.swift; sourceTree = "<group>"; };
 		490FA0752C28F6E3007D587A /* ProjectIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectIndex.swift; sourceTree = "<group>"; };
+		4914B9022C378A68009D1DDF /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		4922BA782C26AE8F008CEDE5 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
 		493029052C2BDFA8004499F6 /* SymbolEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolEffects.swift; sourceTree = "<group>"; };
 		494A9EFB2C23D39200F5DEB9 /* SearchableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableView.swift; sourceTree = "<group>"; };
@@ -142,6 +144,22 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		4914B9002C37896C009D1DDF /* MiniProjects */ = {
+			isa = PBXGroup;
+			children = (
+				4914B9012C378A46009D1DDF /* Scrumtimer */,
+			);
+			path = MiniProjects;
+			sourceTree = "<group>";
+		};
+		4914B9012C378A46009D1DDF /* Scrumtimer */ = {
+			isa = PBXGroup;
+			children = (
+				4914B9022C378A68009D1DDF /* MeetingView.swift */,
+			);
+			path = Scrumtimer;
+			sourceTree = "<group>";
+		};
 		494A9EFD2C23D7D700F5DEB9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +200,7 @@
 		4975C7572BFADCAF007838FC /* Swift Playground */ = {
 			isa = PBXGroup;
 			children = (
+				4914B9002C37896C009D1DDF /* MiniProjects */,
 				490FA0782C28FB62007D587A /* Model */,
 				490FA0772C28FB48007D587A /* View */,
 				494A9EFD2C23D7D700F5DEB9 /* Resources */,
@@ -369,6 +388,7 @@
 				49DE522E2C250AA40025E770 /* GroupBox.swift in Sources */,
 				493029062C2BDFA8004499F6 /* SymbolEffects.swift in Sources */,
 				4999E5142C33979500E01A65 /* ExpandingViews.swift in Sources */,
+				4914B9032C378A68009D1DDF /* MeetingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
